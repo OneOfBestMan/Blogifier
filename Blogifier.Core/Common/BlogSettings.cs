@@ -5,8 +5,8 @@ namespace Blogifier.Core.Common
 {
     public class BlogSettings
     {
-        public static string Title { get; set; } = "Blog Title";
-        public static string Description { get; set; } = "Short description of the blog";
+        public static string Title { get; set; } = "Scratch学习";
+        public static string Description { get; set; } = "Scratch学习";
         public static string Logo { get; set; } = "/embedded/lib/img/logo.png";
         public static string Cover { get; set; } = "/embedded/lib/img/cover.png";
         public static string Theme { get; set; } = "Standard";
@@ -17,7 +17,7 @@ namespace Blogifier.Core.Common
 
         // posts
         public static int ItemsPerPage { get; set; } = 10;
-        public static string PostCover { get; set; } = "/embedded/lib/img/cover.png";
+        public static string PostCover { get; set; } = "";
         public static string PostFooter { get; set; } = "";     
     }
 }
